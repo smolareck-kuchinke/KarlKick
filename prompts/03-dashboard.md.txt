@@ -1,0 +1,61 @@
+# Prompt 02 – Dashboard
+
+## Ziel
+
+Erstellung eines ersten Dashboard-Prototyps für KarlKick.
+
+## Verwendetes AI-Tool
+
+Claude Code
+
+## Prompt
+
+```text
+You are continuing the KarlKick project.
+
+Current state:
+- React frontend exists.
+- Spring Boot backend exists.
+- No business logic yet.
+
+Today's task:
+
+Implement ONLY the Dashboard page.
+
+Requirements:
+
+- Create a modern football dashboard inspired by the existing Google Stitch design.
+- Create reusable React components.
+- Use dummy/static data only.
+- Do NOT connect to the backend.
+- Do NOT implement login.
+- Do NOT implement routing yet.
+
+The dashboard should contain:
+
+- Header with "KarlKick"
+- Welcome message
+- Current Matchday card
+- Next three matches
+- Leaderboard preview (Top 3)
+- Bottom navigation (Dashboard, Predictions, Leaderboard, Friends, Profile)
+
+Organize the code cleanly.
+
+Explain every file you create.
+
+Stop afterwards.
+```
+
+## Ergebnis
+
+Claude Code erzeugte:
+
+- Wiederverwendbare React-Komponenten
+- Dashboard-Seite
+- Dummy-Daten
+- Dark Theme
+- Bottom Navigation (ohne Routing)
+- Saubere Komponentenstruktur
+
+Die Umsetzung orientiert sich am zuvor mit Google Stitch entworfenen UI.

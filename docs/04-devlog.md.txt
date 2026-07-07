@@ -20,3 +20,27 @@ Claude Code
 
 Die KI hat die gewünschte Projektstruktur korrekt erstellt.
 Es wurde bewusst noch keine Geschäftslogik implementiert.
+
+## Iteration 2 – Dashboard
+
+
+### Ziel
+Implementierung eines ersten Dashboard-Prototyps auf Basis des mit Google Stitch entworfenen UI-Designs.
+
+### Verwendetes AI-Tool
+Claude Code
+
+### Prompt
+Implement ONLY the Dashboard page using reusable React components and dummy data.
+
+### Ergebnis
+- Dashboard-Seite erstellt
+- Wiederverwendbare React-Komponenten angelegt
+- Dummy-Daten für Spieltag, Spiele und Rangliste verwendet
+- Modernes Dark Theme entsprechend des Google-Stitch-Entwurfs umgesetzt
+- Keine Backend-Anbindung
+- Keine Login-Funktion
+- Keine Businesslogik
+
+### Eigene Erkenntnisse
+Claude Code konnte aus einem präzisen Prompt eine gut strukturierte React-Oberfläche erzeugen. Durch die Aufteilung in einzelne Komponenten bleibt die Anwendung leicht erweiterbar. Das Dashboard entspricht bereits weitgehend dem zuvor entworfenen UI-Prototyp.

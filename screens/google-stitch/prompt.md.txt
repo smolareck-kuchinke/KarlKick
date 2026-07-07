@@ -1,0 +1,47 @@
+# Google Stitch Prompt
+
+## Ziel
+
+Erstellung eines modernen UI-Prototyps für die Fußball-Tippspiel-App **KarlKick**.
+
+## Prompt
+
+```text
+Create a modern mobile app UI for a football prediction platform called "KarlKick".
+
+The design should feel similar to kicktipp.de.
+
+Use a black theme with white, light and dark red accents.
+
+The app allows users to predict football match results and compete with friends.
+
+Include the following screens:
+
+- Login
+- Home Dashboard
+- Match Prediction
+- Leaderboard
+- Statistics
+- User Profile
+
+Display football match cards with team logos, kickoff times and score prediction fields.
+
+Show rankings with medals and points.
+
+Use rounded cards, modern typography, subtle shadows and a clean, premium sports app appearance.
+
+The interface should look production-ready and suitable for Android and iOS.
+```
+
+## Ergebnis
+
+Google Stitch erzeugte mehrere UI-Prototypen für:
+
+- Login
+- Dashboard
+- Match Prediction
+- Leaderboard
+- Statistics
+- User Profile
+
+Diese Entwürfe dienten anschließend als Vorlage für die schrittweise Implementierung mit Claude Code.
