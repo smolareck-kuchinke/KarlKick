@@ -1,0 +1,22 @@
+## Iteration 1
+
+### Ziel
+
+Projektstruktur erstellen.
+
+### Verwendetes AI-Tool
+
+Claude Code
+
+### Ergebnis
+
+- React-Projekt erstellt
+- Spring Boot Backend erstellt
+- Maven konfiguriert
+- H2 eingerichtet
+- Projektstruktur erstellt
+
+### Eigene Bewertung
+
+Die KI hat die gewünschte Projektstruktur korrekt erstellt.
+Es wurde bewusst noch keine Geschäftslogik implementiert.
