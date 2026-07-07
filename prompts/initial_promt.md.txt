@@ -1,0 +1,8 @@
+Create a modern mobile app UI for a football prediction platform called "KarlKick". 
+The design should feel similar to kicktipp.de. Use a black theme with white, light red and dark red accents. 
+The app allows users to predict football match results and compete with friends. 
+Include the following screens: Login, Home Dashboard, Match Prediction, Leaderboard, Statistics and User Profile. 
+Display football match cards with team logos, kickoff times and score prediction fields. 
+Show rankings with medals and points. Use rounded cards, modern typography, subtle shadows and a clean, premium sports app appearance. 
+The interface should look production-ready and suitable for Android and iOS
+Please follow the WCAG accessibility guidelines, including the required color contrast ratios.
