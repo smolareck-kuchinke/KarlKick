@@ -1,0 +1,43 @@
+# Entwicklungsplan
+
+## Version 0.1
+
+- Login
+- Dashboard
+
+---
+
+## Version 0.2
+
+- Spieltage anzeigen
+
+---
+
+## Version 0.3
+
+- Tipps speichern
+
+---
+
+## Version 0.4
+
+- Rangliste
+
+---
+
+## Version 0.5
+
+- Freunde
+
+---
+
+## Version 0.6
+
+- Profil
+
+---
+
+## Version 1.0
+
+- Bonusfragen
+- Statistiken

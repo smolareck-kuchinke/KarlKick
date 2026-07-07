@@ -1,0 +1,21 @@
+# Architektur
+
+Frontend
+
+- React
+
+Backend
+
+- Spring Boot
+
+Datenbank
+
+- PostgreSQL
+
+Kommunikation
+
+- REST API
+
+Version C
+
+Das Backend wird später in mehrere Services aufgeteilt.

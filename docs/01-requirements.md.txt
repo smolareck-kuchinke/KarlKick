@@ -1,0 +1,44 @@
+# KarlKick - Requirements
+
+## Projektidee
+
+KarlKick ist eine moderne Fußball-Tippspiel-App.
+
+Benutzer können Fußballspiele tippen, private Tippspiel-Ligen erstellen und Freunde einladen. Nach jedem Spieltag werden automatisch Punkte berechnet und Ranglisten aktualisiert.
+
+---
+
+# MVP (Minimum Viable Product)
+
+## Benutzer
+
+- Registrierung
+- Login
+- Profil anzeigen
+
+## Tippspiel
+
+- Spieltage anzeigen
+- Spiele anzeigen
+- Ergebnis tippen
+- Tipps speichern
+
+## Rangliste
+
+- Punkte berechnen
+- Rangliste anzeigen
+
+## Community
+
+- Freunde hinzufügen
+- Private Liga erstellen
+- Liga beitreten
+
+---
+
+# Erweiterungen
+
+- Bonusfragen
+- Push-Benachrichtigungen
+- Statistiken
+- AI Predictions

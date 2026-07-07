@@ -1,0 +1,25 @@
+# TODO
+
+## GUI
+
+- [x] Google Stitch
+
+## Projekt
+
+- [ ] Spring Boot
+
+- [ ] React
+
+- [ ] Login
+
+- [ ] Dashboard
+
+- [ ] Spieltage
+
+- [ ] Rangliste
+
+- [ ] Profil
+
+- [ ] Bonusfragen
+
+- [ ] AI Predictions
