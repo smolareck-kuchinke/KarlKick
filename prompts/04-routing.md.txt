@@ -1,0 +1,36 @@
+You are continuing the KarlKick project.
+
+Current state:
+- Dashboard page is finished.
+- Backend is untouched.
+- No API communication yet.
+
+Today's task:
+
+Implement client-side routing using React Router.
+
+Requirements:
+
+- Install and configure React Router.
+- Create the following pages:
+
+  - Dashboard
+  - Predictions
+  - Leaderboard
+  - Friends
+  - Profile
+
+- Keep the existing Dashboard exactly as it is.
+- The other pages should contain clean placeholder UIs with titles and short descriptions.
+
+Update the Bottom Navigation so every button navigates to its page.
+
+Do not implement business logic.
+
+Do not connect to the backend.
+
+Keep the project structure clean.
+
+Explain every created or modified file.
+
+Stop afterwards.

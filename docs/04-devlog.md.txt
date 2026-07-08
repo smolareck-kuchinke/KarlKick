@@ -21,8 +21,9 @@ Claude Code
 Die KI hat die gewünschte Projektstruktur korrekt erstellt.
 Es wurde bewusst noch keine Geschäftslogik implementiert.
 
-## Iteration 2 – Dashboard
 
+
+## Iteration 2 – Dashboard
 
 ### Ziel
 Implementierung eines ersten Dashboard-Prototyps auf Basis des mit Google Stitch entworfenen UI-Designs.
@@ -44,3 +45,31 @@ Implement ONLY the Dashboard page using reusable React components and dummy data
 
 ### Eigene Erkenntnisse
 Claude Code konnte aus einem präzisen Prompt eine gut strukturierte React-Oberfläche erzeugen. Durch die Aufteilung in einzelne Komponenten bleibt die Anwendung leicht erweiterbar. Das Dashboard entspricht bereits weitgehend dem zuvor entworfenen UI-Prototyp.
+
+
+
+## Iteration 3 – Client-seitiges Routing
+
+### Ziel
+Einführung eines client-seitigen Routings mit React Router, sodass zwischen den Hauptseiten der Anwendung navigiert werden kann.
+
+### Verwendeter Prompt
+Siehe `prompts/04-routing.md`.
+
+### Umsetzung
+- React Router in das Frontend integriert.
+- Navigation zwischen den Seiten Dashboard, Tipps, Rangliste, Freunde und Profil umgesetzt.
+- Das bestehende Dashboard unverändert beibehalten.
+- Für die übrigen Seiten zunächst Platzhalter erstellt, die in späteren Iterationen mit Funktionalität erweitert werden.
+
+### Ergebnis
+Die Navigation innerhalb der Anwendung funktioniert vollständig über das client-seitige Routing. Ein Wechsel zwischen den einzelnen Seiten ist ohne Neuladen der Anwendung möglich.
+
+### Screenshots
+Siehe `screens/iterations/iteration-04-routing/`.
+
+### Hinweise
+- Keine Backend-Anbindung.
+- Keine Benutzerauthentifizierung.
+- Keine Geschäftslogik implementiert.
+- Die Platzhalterseiten dienen als Grundlage für die folgenden Entwicklungsschritte.
