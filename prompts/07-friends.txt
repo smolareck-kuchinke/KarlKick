@@ -1,0 +1,41 @@
+You are continuing the KarlKick project.
+
+Current state:
+
+- Dashboard is finished.
+- Predictions page is implemented.
+- Leaderboard page is implemented.
+- Routing is implemented.
+- No backend communication exists.
+
+Today's task:
+
+Implement ONLY the Friends page.
+
+Requirements:
+
+- Use dummy/static data only.
+- Display a list of friends.
+- Every friend has:
+  - Name
+  - Favorite club
+  - Online/Offline status
+- Display the current private prediction league:
+  "Karl's Bundesliga"
+- Display an invitation code:
+  KARL2026
+- Add a button:
+  "Invite Friend"
+  (no functionality)
+
+Reuse existing layout/components whenever possible.
+
+Keep the existing dark design language.
+
+Do not implement backend communication.
+
+Do not implement authentication.
+
+Explain every created or modified file.
+
+Stop afterwards.

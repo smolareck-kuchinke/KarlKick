@@ -137,3 +137,38 @@ Durch die Erweiterung bereits vorhandener Komponenten konnte die Ranglisten-Seit
 ### Screenshots
 
 Siehe `screens/iterations/iteration-05-leaderboard/`.
+
+
+## Iteration 6 – Freunde
+
+### Ziel
+
+Implementierung einer Freundesübersicht, in der die Benutzer ihre Freunde, die aktuelle Tippspiel-Liga sowie einen Einladungscode einsehen können. Die Seite soll den sozialen Aspekt der Anwendung darstellen und als Grundlage für spätere Mehrspielerfunktionen dienen.
+
+### Verwendetes AI-Tool
+
+Claude Code
+
+### Prompt
+
+Siehe `prompts/07-friends.md`.
+
+### Ergebnis
+
+- Freundesübersicht implementiert.
+- Fünf Beispiel-Freunde mit Dummy-Daten dargestellt.
+- Für jeden Freund werden Name, Lieblingsverein sowie Online-/Offline-Status angezeigt.
+- Private Tippspiel-Liga „Karl's Bundesliga“ integriert.
+- Einladungscode „KARL2026“ angezeigt.
+- Schaltfläche „Invite Friend“ ergänzt (derzeit ohne Funktion).
+- Bestehende React-Komponenten und Designrichtlinien konsequent wiederverwendet.
+- Keine Backend-Anbindung.
+- Keine Benutzerauthentifizierung.
+
+### Eigene Erkenntnisse
+
+Durch die Erweiterung der Anwendung um eine soziale Komponente wirkt KarlKick bereits deutlich realistischer. Die Wiederverwendung bestehender Komponenten und Designmuster sorgte dafür, dass sich die neue Seite nahtlos in die vorhandene Benutzeroberfläche integriert. Die derzeit verwendeten Dummy-Daten können in einer späteren Iteration problemlos durch Daten aus dem Backend ersetzt werden.
+
+### Screenshots
+
+Siehe `screens/iterations/iteration-06-friends/`.

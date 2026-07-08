@@ -1,0 +1,61 @@
+.card {
+  margin: 16px 20px 0;
+  padding: 18px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--color-accent);
+}
+
+.codeRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  background: var(--color-surface-alt);
+  border-radius: var(--radius-md);
+}
+
+.codeLabel {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+}
+
+.code {
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  color: var(--color-text-primary);
+}
+
+.inviteButton {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: var(--radius-md);
+  background: var(--color-accent-strong);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.inviteButton:hover {
+  filter: brightness(1.05);
+}

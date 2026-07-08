@@ -68,6 +68,19 @@ export const leaderboardTop10 = [
   { rank: 10, name: 'Nina Fischer', points: 9840, trend: 'same' },
 ]
 
+export const currentLeague = {
+  name: "Karl's Bundesliga",
+  inviteCode: 'KARL2026',
+}
+
+export const friendsList = [
+  { id: 1, name: 'Jordan Knight', club: 'Liverpool', isOnline: true },
+  { id: 2, name: 'Elena Rossi', club: 'Real Madrid', isOnline: false },
+  { id: 3, name: 'David Miller', club: 'Bayern', isOnline: true },
+  { id: 4, name: 'Priya Nair', club: 'Arsenal', isOnline: false },
+  { id: 5, name: 'Tom Becker', club: 'Borussia Dortmund', isOnline: true },
+]
+
 export const predictionMatches = [
   {
     id: 1,
