@@ -206,3 +206,38 @@ Mit der Profilseite sind nun alle zentralen Ansichten der Anwendung umgesetzt. D
 ### Screenshots
 
 Siehe `screens/iterations/iteration-07-profile/`.
+
+
+
+## Iteration 8 – Verteilte Projektstruktur
+
+### Ziel
+
+Aufbau einer verteilten Backend-Architektur als Grundlage für Teil C. Die Anwendung wird in zwei unabhängige Spring-Boot-Services aufgeteilt, die später über REST miteinander kommunizieren.
+
+### Verwendetes AI-Tool
+
+Claude Code
+
+### Prompt
+
+Siehe `prompts/09-distributed-project-setup.md`.
+
+### Ergebnis
+
+- Zwei unabhängige Spring-Boot-Anwendungen erstellt.
+- Prediction Service angelegt.
+- Leaderboard Service angelegt.
+- Beide Services besitzen eine eigene Maven-Konfiguration.
+- Beide Services besitzen eine eigene H2-Datenbank.
+- Unterschiedliche Server-Ports konfiguriert (8081 und 8082).
+- Eigenständige Paketstruktur mit Controller-, Service-, Repository- und Model-Paketen erstellt.
+- Beide Projekte lassen sich unabhängig kompilieren und starten.
+
+### Eigene Erkenntnisse
+
+Im Gegensatz zur bisherigen Client-Server-Anwendung besteht das Backend nun aus zwei voneinander unabhängigen Prozessen. Jeder Service übernimmt eine klar abgegrenzte Aufgabe und besitzt eine eigene Datenhaltung. Dadurch entsteht die Grundlage für eine verteilte Softwarearchitektur, in der Services später über REST miteinander kommunizieren können.
+
+### Screenshots
+
+Siehe `screens/distributed/iteration-01-project-setup/`.

@@ -1,0 +1,46 @@
+You are continuing the KarlKick project.
+
+Part B (the frontend application) is finished.
+
+For Part C, create a distributed backend architecture.
+
+Requirements:
+
+Create TWO completely independent Spring Boot applications:
+
+1. prediction-service
+2. leaderboard-service
+
+Requirements:
+
+- Java 21
+- Maven
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- H2 Database
+
+Each service must:
+
+- have its own pom.xml
+- have its own application.properties
+- have its own H2 database
+- have its own package structure
+- compile independently
+
+Create the following package structure inside each service:
+
+controller
+service
+repository
+model
+
+Do NOT implement business logic.
+
+Do NOT implement REST endpoints yet.
+
+Do NOT implement communication between services yet.
+
+Only create the project structure and explain every created file.
+
+Stop afterwards.

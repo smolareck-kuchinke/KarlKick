@@ -2,7 +2,7 @@
 
 KarlKick ist eine moderne Fußball-Tippspiel-App, bei der Benutzer Fußballspiele tippen, sich mit Freunden in privaten Tippspiel-Ligen messen und Ranglisten verfolgen können.
 
-Das Projekt entsteht schrittweise mithilfe von **AI Coding** mit **Claude Code**. Die Benutzeroberfläche wurde zunächst mit **Google Stitch** entworfen und anschließend iterativ umgesetzt.
+Das Projekt entsteht schrittweise mithilfe von **AI Coding** mit **Claude Code** unterstützt durch Chat GPT. Die Benutzeroberfläche wurde zunächst mit **Google Stitch** entworfen und anschließend iterativ umgesetzt.
 
 ---
 
@@ -25,6 +25,7 @@ Das Projekt entsteht schrittweise mithilfe von **AI Coding** mit **Claude Code**
 
 - Claude Code
 - Google Stitch
+- Chat GPT
 
 ---
 

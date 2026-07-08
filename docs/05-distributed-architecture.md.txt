@@ -1,0 +1,96 @@
+# Verteilte Architektur von KarlKick
+
+## Ziel
+
+Für Teil C wird die bisherige Anwendung in mehrere unabhängige Prozesse aufgeteilt. Jeder Prozess übernimmt eine klar definierte Aufgabe und kommuniziert über REST-Schnittstellen mit den anderen Prozessen.
+
+Dadurch wird aus der bisherigen Client-Server-Anwendung eine verteilte Softwarearchitektur.
+
+---
+
+# Architekturübersicht
+
+Die Anwendung besteht aus drei Backend-Services:
+
+- User Service
+- Prediction Service
+- Leaderboard Service
+
+Das React-Frontend kommuniziert direkt mit den jeweiligen Services.
+
+---
+
+# User Service
+
+Aufgaben:
+
+- Benutzerprofil
+- Freunde
+- Benutzerinformationen
+
+---
+
+# Prediction Service
+
+Aufgaben:
+
+- Fußballspiele anzeigen
+- Tipps speichern
+- Tippdaten verwalten
+
+Nach dem Speichern eines Tipps informiert der Prediction Service den Leaderboard Service über die Änderung.
+
+---
+
+# Leaderboard Service
+
+Aufgaben:
+
+- Punkte berechnen
+- Rangliste verwalten
+- Aktuelle Platzierungen bereitstellen
+
+---
+
+# Kommunikation
+
+Die Kommunikation zwischen den Services erfolgt über REST.
+
+Beispiel:
+
+React Frontend
+
+↓
+
+Prediction Service
+
+↓
+
+REST-Aufruf
+
+↓
+
+Leaderboard Service
+
+Dadurch arbeiten mehrere unabhängige Prozesse zusammen.
+
+
+## Begründung der Architektur
+
+Es wurden bewusst nur drei Services gewählt.
+
+Dadurch bleibt die Architektur übersichtlich und erfüllt dennoch die Anforderungen einer verteilten Anwendung.
+
+Jeder Service besitzt genau eine klar definierte Aufgabe (Single Responsibility Principle).
+
+Die Kommunikation erfolgt ausschließlich über klar definierte REST-Schnittstellen.
+
+# Verteilte Architektur
+
+
+## Architekturübersicht
+
+![Distributed Architecture](images/distributed-architecture.png)
+
+Die Anwendung wurde für Teil C in zwei unabhängige Backend-Services aufgeteilt.
+...

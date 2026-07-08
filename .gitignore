@@ -1,5 +1,7 @@
 # Backend (Maven)
 backend/target/
+prediction-service/target/
+leaderboard-service/target/
 
 # Frontend (Node)
 frontend/node_modules/
