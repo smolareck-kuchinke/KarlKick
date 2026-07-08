@@ -1,0 +1,29 @@
+You are continuing the KarlKick project.
+
+Current state:
+
+- Dashboard is finished.
+- Routing is implemented.
+- Prediction page is functional using React state.
+- No backend communication exists.
+
+Today's task:
+
+Implement ONLY the Leaderboard page.
+
+Requirements:
+
+- Use dummy/static data only.
+- Display the Top 10 players.
+- Show:
+  - Rank
+  - Name
+  - Points
+  - Trend (up/down/no change)
+- Highlight the current user.
+- Reuse existing components whenever possible.
+- Keep the same dark theme.
+- Do not connect to the backend.
+- Do not implement authentication.
+- Explain every created or modified file.
+- Stop afterwards.

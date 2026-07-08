@@ -1,13 +1,11 @@
 import PageShell from '../../components/PageShell/PageShell.jsx'
-import PlaceholderPage from '../../components/PlaceholderPage/PlaceholderPage.jsx'
+import LeaderboardPreview from '../../components/LeaderboardPreview/LeaderboardPreview.jsx'
+import { leaderboardTop10 } from '../../data/dummyData.js'
 
 function Leaderboard() {
   return (
     <PageShell activeKey="leaderboard">
-      <PlaceholderPage
-        title="Leaderboard"
-        description="See how you rank against other predictors soon."
-      />
+      <LeaderboardPreview entries={leaderboardTop10} caption="Top 10" />
     </PageShell>
   )
 }

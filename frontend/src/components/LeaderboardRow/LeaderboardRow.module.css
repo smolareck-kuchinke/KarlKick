@@ -10,6 +10,10 @@
   border-bottom: none;
 }
 
+.rowHighlight {
+  background: rgba(242, 121, 159, 0.1);
+}
+
 .rank {
   width: 24px;
   font-size: 14px;
@@ -47,8 +51,40 @@
   text-overflow: ellipsis;
 }
 
+.youTag {
+  margin-left: 6px;
+  padding: 2px 6px;
+  border-radius: var(--radius-full);
+  background: var(--color-accent);
+  color: var(--color-bg);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
 .points {
   font-size: 13px;
   font-weight: 700;
   color: var(--color-accent);
+}
+
+.trend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  flex-shrink: 0;
+}
+
+.trendUp {
+  color: var(--color-positive);
+}
+
+.trendDown {
+  color: var(--color-negative);
+}
+
+.trendFlat {
+  color: var(--color-text-muted);
 }

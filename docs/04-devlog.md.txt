@@ -101,4 +101,39 @@ Siehe `prompts/05-predictions.md`.
 
 ### Eigene Erkenntnisse
 
-Mit dieser Iteration besitzt KarlKick erstmals eine echte Benutzerinteraktion. Durch die Verwendung des React State konnte die Funktionalität umgesetzt werden, ohne bereits ein Backend oder eine Datenbank einzubinden. Dadurch bleibt die Entwicklung weiterhin in kleinen, nachvollziehbaren Schritten.
+Mit dieser Iteration besitzt KarlKick erstmals eine echte Benutzerinteraktion. Durch die Verwendung des React State konnte die Funktionalität umgesetzt werden, 
+ohne bereits ein Backend oder eine Datenbank einzubinden. Dadurch bleibt die Entwicklung weiterhin in kleinen, nachvollziehbaren Schritten.
+
+
+
+## Iteration 5 – Rangliste
+
+### Ziel
+
+Implementierung einer Ranglisten-Seite, auf der die aktuellen Punktestände der Spieler dargestellt werden. Die Seite soll das bestehende Design wiederverwenden und zunächst ausschließlich mit Dummy-Daten arbeiten.
+
+### Verwendetes AI-Tool
+
+Claude Code
+
+### Prompt
+
+Siehe `prompts/06-leaderboard.md`.
+
+### Ergebnis
+
+- Ranglisten-Seite implementiert.
+- Top-10-Spieler mit Rang, Name und Punktestand dargestellt.
+- Trendanzeige (Aufstieg, Abstieg oder unverändert) integriert.
+- Aktueller Benutzer in der Rangliste hervorgehoben.
+- Bestehende React-Komponenten wiederverwendet.
+- Keine Backend-Anbindung.
+- Keine Geschäftslogik zur Punkteberechnung implementiert.
+
+### Eigene Erkenntnisse
+
+Durch die Erweiterung bereits vorhandener Komponenten konnte die Ranglisten-Seite mit geringem zusätzlichem Aufwand umgesetzt werden. Die Wiederverwendung bestehender Komponenten reduziert redundanten Code und erleichtert die spätere Erweiterung der Anwendung. Die Rangliste arbeitet derzeit ausschließlich mit Dummy-Daten und bildet die Grundlage für eine spätere Anbindung an das Backend.
+
+### Screenshots
+
+Siehe `screens/iterations/iteration-05-leaderboard/`.

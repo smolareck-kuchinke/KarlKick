@@ -2,10 +2,10 @@ import SectionHeader from '../SectionHeader/SectionHeader.jsx'
 import LeaderboardRow from '../LeaderboardRow/LeaderboardRow.jsx'
 import styles from './LeaderboardPreview.module.css'
 
-function LeaderboardPreview({ entries }) {
+function LeaderboardPreview({ entries, caption = 'Top 3' }) {
   return (
     <section>
-      <SectionHeader title="Leaderboard" caption="Top 3" />
+      <SectionHeader title="Leaderboard" caption={caption} />
       <div className={styles.list}>
         {entries.map((entry) => (
           <LeaderboardRow key={entry.rank} entry={entry} />

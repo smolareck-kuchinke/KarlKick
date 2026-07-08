@@ -81,3 +81,29 @@ export function ProfileIcon(props) {
     </svg>
   )
 }
+
+export function TrendUpIcon(props) {
+  return (
+    <svg {...defaultProps} {...props}>
+      <line x1="12" y1="19" x2="12" y2="5" />
+      <polyline points="6 11 12 5 18 11" />
+    </svg>
+  )
+}
+
+export function TrendDownIcon(props) {
+  return (
+    <svg {...defaultProps} {...props}>
+      <line x1="12" y1="5" x2="12" y2="19" />
+      <polyline points="6 13 12 19 18 13" />
+    </svg>
+  )
+}
+
+export function TrendFlatIcon(props) {
+  return (
+    <svg {...defaultProps} {...props}>
+      <line x1="5" y1="12" x2="19" y2="12" />
+    </svg>
+  )
+}

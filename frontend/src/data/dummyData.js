@@ -55,6 +55,19 @@ export const leaderboardPreview = [
   { rank: 3, name: 'Sarah Chen', points: 11980 },
 ]
 
+export const leaderboardTop10 = [
+  { rank: 1, name: 'Marcus Vane', points: 15420, trend: 'up' },
+  { rank: 2, name: 'Sarah Chen', points: 14980, trend: 'down' },
+  { rank: 3, name: 'Jordan Knight', points: 13750, trend: 'same' },
+  { rank: 4, name: 'Alex Morgan', points: 13120, trend: 'up', isCurrentUser: true },
+  { rank: 5, name: 'Elena Rossi', points: 12480, trend: 'down' },
+  { rank: 6, name: 'David Miller', points: 11960, trend: 'up' },
+  { rank: 7, name: 'Priya Nair', points: 11340, trend: 'same' },
+  { rank: 8, name: 'Tom Becker', points: 10870, trend: 'down' },
+  { rank: 9, name: 'Lucas Silva', points: 10210, trend: 'up' },
+  { rank: 10, name: 'Nina Fischer', points: 9840, trend: 'same' },
+]
+
 export const predictionMatches = [
   {
     id: 1,
