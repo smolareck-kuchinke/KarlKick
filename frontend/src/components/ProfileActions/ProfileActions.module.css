@@ -1,0 +1,38 @@
+.actions {
+  margin: 20px 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.editButton {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: var(--radius-md);
+  background: var(--color-accent-strong);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.editButton:hover {
+  filter: brightness(1.05);
+}
+
+.logoutButton {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: transparent;
+  color: var(--color-negative);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.logoutButton:hover {
+  background: var(--color-surface-alt);
+}

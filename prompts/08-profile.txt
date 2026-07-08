@@ -1,0 +1,48 @@
+You are continuing the KarlKick project.
+
+Current state:
+
+- Dashboard is implemented.
+- Predictions page is implemented.
+- Leaderboard page is implemented.
+- Friends page is implemented.
+- Routing is complete.
+- No backend communication exists.
+
+Today's task:
+
+Implement ONLY the Profile page.
+
+Requirements:
+
+- Use dummy/static data only.
+
+Display:
+
+- User avatar
+- Full name
+- Favorite football club
+- Member since
+- Current points
+- Current ranking
+- Total predictions submitted
+- Correct predictions
+
+Add two buttons:
+
+- Edit Profile
+- Logout
+
+(No functionality.)
+
+Reuse existing layout and components whenever possible.
+
+Keep the existing dark design language.
+
+Do not implement backend communication.
+
+Do not implement authentication.
+
+Explain every created or modified file.
+
+Stop afterwards.-friends/`.

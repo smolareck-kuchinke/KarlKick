@@ -81,6 +81,16 @@ export const friendsList = [
   { id: 5, name: 'Tom Becker', club: 'Borussia Dortmund', isOnline: true },
 ]
 
+export const userProfile = {
+  fullName: 'Alex Morgan',
+  favoriteClub: 'Manchester City',
+  memberSince: 'August 2023',
+  points: 13120,
+  ranking: 4,
+  totalPredictions: 128,
+  correctPredictions: 87,
+}
+
 export const predictionMatches = [
   {
     id: 1,

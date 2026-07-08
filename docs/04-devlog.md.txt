@@ -172,3 +172,37 @@ Durch die Erweiterung der Anwendung um eine soziale Komponente wirkt KarlKick be
 ### Screenshots
 
 Siehe `screens/iterations/iteration-06-friends/`.
+
+
+## Iteration 7 – Profil
+
+### Ziel
+
+Implementierung einer Profilseite, auf der Benutzer ihre persönlichen Informationen sowie Statistiken zu ihrem Tippspiel einsehen können.
+
+### Verwendetes AI-Tool
+
+Claude Code
+
+### Prompt
+
+Siehe `prompts/08-profile.md`.
+
+### Ergebnis
+
+- Profilseite vollständig implementiert.
+- Benutzeravatar integriert.
+- Name, Lieblingsverein und Mitgliedschaft seit dargestellt.
+- Statistiken zu Punkten, Rang, abgegebenen Tipps und richtig getippten Ergebnissen angezeigt.
+- Schaltflächen „Edit Profile“ und „Logout“ ergänzt (ohne Funktion).
+- Bestehende Komponenten und Designrichtlinien wiederverwendet.
+- Keine Backend-Anbindung.
+- Keine Benutzerauthentifizierung.
+
+### Eigene Erkenntnisse
+
+Mit der Profilseite sind nun alle zentralen Ansichten der Anwendung umgesetzt. Durch die konsequente Wiederverwendung bestehender Komponenten konnte die Oberfläche einheitlich gestaltet werden. Die aktuell verwendeten Dummy-Daten bilden eine gute Grundlage für die spätere Anbindung an das Backend.
+
+### Screenshots
+
+Siehe `screens/iterations/iteration-07-profile/`.
