@@ -243,6 +243,7 @@ Im Gegensatz zur bisherigen Client-Server-Anwendung besteht das Backend nun aus 
 Siehe `screens/distributed/iteration-01-project-setup/`.
 
 
+
 ## Iteration 9 – Service-Kommunikation
 
 ### Ziel
@@ -274,3 +275,36 @@ Mit dieser Iteration wurde erstmals eine direkte Kommunikation zwischen zwei una
 ### Screenshots
 
 Siehe `screens/distributed/iteration-02-service-communication/`.
+
+
+
+## Iteration 10 – Speicherung von Tipps
+
+### Ziel
+
+Erweiterung des Prediction Service um eine persistente Speicherung der abgegebenen Tipps in einer eigenen H2-Datenbank.
+
+### Verwendetes AI-Tool
+
+Claude Code
+
+### Prompt
+
+Siehe `prompts/11-persist-predictions.md`.
+
+### Ergebnis
+
+- JPA-Entity `Prediction` erstellt.
+- Spring Data Repository implementiert.
+- Prediction Service speichert eingehende Tipps in seiner eigenen H2-Datenbank.
+- Die bestehende REST-Kommunikation zum Leaderboard Service bleibt unverändert bestehen.
+- Leaderboard Service wurde nicht verändert.
+- Keine Punkteberechnung implementiert.
+
+### Eigene Erkenntnisse
+
+Mit dieser Iteration besitzt der Prediction Service erstmals eine eigene persistente Datenhaltung. Gleichzeitig bleibt die Kommunikation mit dem Leaderboard Service erhalten. Dadurch wird deutlich, dass jeder Service seine eigene Verantwortung sowie eine eigene Datenbank besitzt und dennoch mit anderen Services zusammenarbeitet.
+
+### Screenshots
+
+Siehe `screens/distributed/iteration-03-persistence/`.

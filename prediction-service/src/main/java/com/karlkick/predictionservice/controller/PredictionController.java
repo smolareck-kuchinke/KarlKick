@@ -18,7 +18,7 @@ public class PredictionController {
 
     @PostMapping("/predictions")
     public ResponseEntity<Void> submitPrediction(@RequestBody PredictionRequest request) {
-        predictionService.notifyLeaderboard(request);
+        predictionService.submitPrediction(request);
         return ResponseEntity.ok().build();
     }
 
