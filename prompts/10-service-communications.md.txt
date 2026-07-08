@@ -1,0 +1,67 @@
+You are continuing the KarlKick distributed backend.
+
+Current state:
+
+- prediction-service exists.
+- leaderboard-service exists.
+- Both services compile and run independently.
+- No REST endpoints exist yet.
+
+Today's task:
+
+Implement the first communication between the two services.
+
+Requirements
+
+Prediction Service
+
+Create:
+
+POST /predictions
+
+The endpoint accepts a simple JSON body:
+
+{
+  "matchId": 1,
+  "homeGoals": 2,
+  "awayGoals": 1
+}
+
+Do NOT store anything.
+
+Instead, immediately call the Leaderboard Service using REST.
+
+Leaderboard Service
+
+Create:
+
+POST /updateLeaderboard
+
+This endpoint should:
+
+- receive the request
+- print
+
+Leaderboard update received.
+
+to the console
+
+and return
+
+HTTP 200 OK
+
+Communication
+
+The Prediction Service must call
+
+http://localhost:8082/updateLeaderboard
+
+using Spring RestClient (Spring Boot 3.3).
+
+Do not implement business logic.
+
+Do not use databases yet.
+
+Explain every created or modified file.
+
+Stop afterwards.

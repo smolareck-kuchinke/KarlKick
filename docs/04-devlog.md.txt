@@ -241,3 +241,36 @@ Im Gegensatz zur bisherigen Client-Server-Anwendung besteht das Backend nun aus 
 ### Screenshots
 
 Siehe `screens/distributed/iteration-01-project-setup/`.
+
+
+## Iteration 9 – Service-Kommunikation
+
+### Ziel
+
+Implementierung der ersten Kommunikation zwischen zwei unabhängigen Backend-Services über eine REST-Schnittstelle.
+
+### Verwendetes AI-Tool
+
+Claude Code
+
+### Prompt
+
+Siehe `prompts/10-service-communications.md`.
+
+### Ergebnis
+
+- REST-Endpunkt `POST /predictions` im Prediction Service erstellt.
+- REST-Endpunkt `POST /updateLeaderboard` im Leaderboard Service erstellt.
+- Der Prediction Service ruft den Leaderboard Service nach Eingang eines Tipps automatisch auf.
+- Der Leaderboard Service bestätigt den erfolgreichen Empfang der Anfrage.
+- Beide Services kommunizieren erfolgreich über REST.
+- Keine Geschäftslogik implementiert.
+- Keine Datenbankzugriffe durchgeführt.
+
+### Eigene Erkenntnisse
+
+Mit dieser Iteration wurde erstmals eine direkte Kommunikation zwischen zwei unabhängigen Spring-Boot-Anwendungen umgesetzt. Dadurch wird die zuvor geplante verteilte Architektur praktisch nachgewiesen. Die Kommunikation erfolgt ausschließlich über REST und bildet die Grundlage für die weiteren Entwicklungsschritte.
+
+### Screenshots
+
+Siehe `screens/distributed/iteration-02-service-communication/`.
