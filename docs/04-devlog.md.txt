@@ -73,3 +73,32 @@ Siehe `screens/iterations/iteration-04-routing/`.
 - Keine Benutzerauthentifizierung.
 - Keine Geschäftslogik implementiert.
 - Die Platzhalterseiten dienen als Grundlage für die folgenden Entwicklungsschritte.
+
+
+
+## Iteration 4 – Tippabgabe
+
+### Ziel
+
+Implementierung der ersten interaktiven Funktion der Anwendung. Benutzer sollen Spielergebnisse eingeben und ihre Tipps lokal speichern können.
+
+### Verwendetes AI-Tool
+
+Claude Code
+
+### Prompt
+
+Siehe `prompts/05-predictions.md`.
+
+### Ergebnis
+
+- Seite „Predictions“ vollständig umgesetzt.
+- Fünf Beispielspiele mit Dummy-Daten integriert.
+- Für jedes Spiel können Tipp-Ergebnisse eingegeben werden.
+- Tipps werden lokal im React State gespeichert.
+- Nach dem Speichern erscheint eine Erfolgsmeldung.
+- Keine Backend-Anbindung und keine Datenpersistenz.
+
+### Eigene Erkenntnisse
+
+Mit dieser Iteration besitzt KarlKick erstmals eine echte Benutzerinteraktion. Durch die Verwendung des React State konnte die Funktionalität umgesetzt werden, ohne bereits ein Backend oder eine Datenbank einzubinden. Dadurch bleibt die Entwicklung weiterhin in kleinen, nachvollziehbaren Schritten.

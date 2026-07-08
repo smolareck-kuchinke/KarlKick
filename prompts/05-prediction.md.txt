@@ -1,0 +1,27 @@
+You are continuing the KarlKick project.
+
+Current state:
+
+- React frontend exists.
+- Routing is implemented.
+- Dashboard is finished.
+- No backend communication exists.
+
+Today's task:
+
+Implement ONLY the Predictions page.
+
+Requirements:
+
+- Display five football matches.
+- Use dummy data.
+- Every match has two number input fields for the predicted score.
+- Add a "Save Prediction" button.
+- Save predictions only in React state.
+- Show a success message after saving.
+- Keep the existing design language.
+- Reuse components whenever possible.
+- Do not connect to the backend.
+- Do not implement authentication.
+- Explain every created or modified file.
+- Stop afterwards.
