@@ -1,8 +1,6 @@
-# Google Stitch Prompt
+# Google Stitch erster Prompt
 
-## Ziel
 
-Erstellung eines modernen UI-Prototyps für die Fußball-Tippspiel-App **KarlKick**.
 
 ## Prompt
 

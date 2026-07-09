@@ -1,0 +1,5 @@
+# Google Stitch zweiter Prompt
+
+In Leaderboard, there should be no global rankings. Instead, the leaderboard should only display rankings within a private prediction league. A user should be able to create a prediction league with a unique name, and friends should be able to join that league via an invite link. As a result, on the Dashboard, the "Weekly Prediction Challenge" event can be removed and replaced with a "Join Prediction League" button. In Predict Matches, the entire "Sentiment" section can be removed for now. That feature will be added later. There should also be a new "Friends" section where users can:
+
+View a list of all friends they are already connected with. Search for new friends and send friend requests to add them.
