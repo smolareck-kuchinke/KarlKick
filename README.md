@@ -2,7 +2,9 @@
 
 KarlKick ist eine moderne Fußball-Tippspiel-App, bei der Benutzer Fußballspiele tippen, sich mit Freunden in privaten Tippspiel-Ligen messen und Ranglisten verfolgen können.
 
-Das Projekt entsteht schrittweise mithilfe von **AI Coding** mit **Claude Code** unterstützt durch Chat GPT. Die Benutzeroberfläche wurde zunächst mit **Google Stitch** entworfen und anschließend iterativ umgesetzt.
+Das Projekt wurde im Rahmen des Moduls **Softwaretechnik** entwickelt und schrittweise mithilfe von **AI Coding** umgesetzt. 
+Für die Implementierung kam überwiegend **Claude Code** zum Einsatz, unterstützt durch **ChatGPT**. 
+Die Benutzeroberfläche wurde zunächst mit **Google Stitch** entworfen und anschließend iterativ umgesetzt.
 
 ---
 
@@ -16,55 +18,96 @@ Das Projekt entsteht schrittweise mithilfe von **AI Coding** mit **Claude Code**
 
 ## Backend
 
-- Spring Boot
+- Spring Boot 3
 - Maven
 - Java 21
+- Spring Data JPA
 - H2 Database
 
 ## AI-Tools
 
 - Claude Code
+- ChatGPT
 - Google Stitch
-- Chat GPT
 
 ---
 
-# Entwicklungsstand
+# Projektübersicht
 
-## Bereits umgesetzt
+Das Projekt besteht aus einem React-Frontend sowie mehreren unabhängigen Spring-Boot-Services.
 
-- ✅ Projektstruktur erstellt
-- ✅ React-Frontend eingerichtet
-- ✅ Spring-Boot-Backend eingerichtet
-- ✅ H2-Datenbank konfiguriert
-- ✅ Dashboard implementiert
-- ✅ Wiederverwendbare React-Komponenten erstellt
+```
+KarlKick
+│
+├── frontend                 React-Anwendung
+├── backend                  Ursprüngliches Monolith-Backend (Teil B)
+├── prediction-service       Microservice für Spieltipps
+├── leaderboard-service      Microservice für Ranglisten
+├── docs                     Projektdokumentation
+├── prompts                  Verwendete AI-Prompts
+└── screens                  Screenshots und UI-Entwürfe
+```
+
+---
+
+# Umgesetzte Funktionen
+
+## Frontend
+
+- ✅ Dashboard
+- ✅ Predictions
+- ✅ Leaderboard
+- ✅ Friends
+- ✅ Profile
 - ✅ Client-seitiges Routing mit React Router
+- ✅ Wiederverwendbare React-Komponenten
+- ✅ Modernes Dark-Theme
 
-## In Entwicklung
+## Backend
 
-- ⏳ Tipps abgeben
-- ⏳ Rangliste
-- ⏳ Freunde
-- ⏳ Profil
+### Prediction Service
 
-## Geplante Funktionen
+- ✅ REST-Endpunkt `POST /predictions`
+- ✅ Speicherung von Tipps in einer eigenen H2-Datenbank
+- ✅ Kommunikation mit dem Leaderboard Service über REST
 
-- Login
-- Backend-Anbindung
-- REST-API
-- Datenbankpersistenz
-- Private Tippspiel-Ligen
-- AI-Unterstützung
-- Verteilte Architektur (Aufgabe C)
+### Leaderboard Service
+
+- ✅ REST-Endpunkt `POST /updateLeaderboard`
+- ✅ Speicherung eingehender Aktualisierungen in einer eigenen H2-Datenbank
+
+---
+
+# Verteilte Architektur
+
+Für Teil C des Projekts wurde eine einfache verteilte Architektur umgesetzt.
+
+Die Anwendung besteht aus zwei unabhängigen Spring-Boot-Services:
+
+- Prediction Service
+- Leaderboard Service
+
+Beide Services
+
+- besitzen eine eigene H2-Datenbank,
+- kommunizieren über REST,
+- können unabhängig voneinander gestartet werden.
+
+Die Kommunikation erfolgt nach folgendem Ablauf:
+
+## Architerkturübersicht
+
+![Verteilte Architektur](docs/images/architecture-overview.png)
 
 ---
 
 # Projektstruktur
 
-```text
+```
 backend/
 frontend/
+prediction-service/
+leaderboard-service/
 docs/
 prompts/
 screens/
@@ -74,25 +117,51 @@ screens/
 
 # Dokumentation
 
-Die Entwicklung wird vollständig dokumentiert.
+Die Entwicklung wurde vollständig dokumentiert.
 
-- **docs/** → Anforderungen, Roadmap und Entwicklungsprotokoll
-- **prompts/** → Verwendete Claude-Code-Prompts
-- **screens/** → Google-Stitch-Entwürfe und Screenshots der Implementierung
+- `docs/` – Projektplanung, Architektur und Development Log
+- `prompts/` – alle verwendeten Claude-Code-Prompts
+- `screens/` – UI-Entwürfe sowie Screenshots der einzelnen Entwicklungsiterationen
 
 ---
 
 # Entwicklungsprozess
 
-Das Projekt wird nach einem iterativen Vorgehen entwickelt.
-
-Jede Iteration umfasst:
+Das Projekt wurde iterativ entwickelt. Jede Iteration bestand aus folgenden Schritten:
 
 1. Ziel definieren
 2. Prompt für Claude Code erstellen
 3. Implementierung durch Claude Code
-4. Überprüfung und Test
+4. Code überprüfen und testen
 5. Dokumentation im Development Log
 6. Commit und Push nach GitHub
 
-Weitere Details zu jeder Entwicklungsiteration befinden sich im Dokument `docs/04-devlog.md`.
+Alle Entwicklungsiterationen sind im Dokument **`docs/04-devlog.md`** dokumentiert.
+
+---
+
+# Finaler Stand
+
+## Teil A
+
+- ✅ Google Stitch Architektur
+
+## Teil B
+
+- ✅ Mittelgroßes Pet Project umgesetzt
+- ✅ Vollständiges React-Frontend erstellt
+
+## Teil C
+
+- ✅ Verteilte Architektur umgesetzt
+- ✅ Zwei unabhängige Spring-Boot-Services erstellt
+- ✅ REST-Kommunikation implementiert
+- ✅ Eigene Datenhaltung pro Service umgesetzt
+
+---
+
+# Autor
+
+Projekt im Rahmen des Moduls **Softwaretechnik**.
+
+Entwicklung mit Unterstützung von **Claude Code** und **ChatGPT**.
