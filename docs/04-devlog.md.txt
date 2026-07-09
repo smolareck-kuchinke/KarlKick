@@ -308,3 +308,36 @@ Mit dieser Iteration besitzt der Prediction Service erstmals eine eigene persist
 ### Screenshots
 
 Siehe `screens/distributed/iteration-03-persistence/`.
+
+
+
+## Iteration 11 – Persistenz im Leaderboard Service
+
+### Ziel
+
+Erweiterung des Leaderboard Service um eine eigene persistente Datenhaltung, sodass eingehende Aktualisierungen dauerhaft gespeichert werden.
+
+### Verwendetes AI-Tool
+
+Claude Code
+
+### Prompt
+
+Siehe `prompts/12-persist-leaderboard.md`.
+
+### Ergebnis
+
+- JPA-Entity `LeaderboardUpdate` erstellt.
+- Spring Data Repository implementiert.
+- Leaderboard Service speichert jede eingehende Aktualisierung in seiner eigenen H2-Datenbank.
+- Bestehende REST-Kommunikation mit dem Prediction Service bleibt unverändert bestehen.
+- Prediction Service wurde nicht verändert.
+- Keine Punkteberechnung oder Ranglistenlogik implementiert.
+
+### Eigene Erkenntnisse
+
+Mit dieser Iteration verfügen beide Backend-Services über eine eigene Datenhaltung. Jeder Service verwaltet ausschließlich seine eigenen Daten und kommuniziert über REST mit dem jeweils anderen Service. Dadurch wird die verteilte Architektur der Anwendung vollständig umgesetzt.
+
+### Screenshots
+
+Siehe `screens/distributed/iteration-04-leaderboard-persistence/`.

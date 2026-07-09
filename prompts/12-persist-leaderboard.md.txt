@@ -1,0 +1,44 @@
+You are continuing the KarlKick distributed backend.
+
+Current state:
+
+- prediction-service stores predictions successfully.
+- prediction-service notifies leaderboard-service via REST.
+- leaderboard-service currently only prints a console message.
+
+Today's task:
+
+Implement persistence ONLY in the leaderboard-service.
+
+Requirements
+
+Create a JPA entity:
+
+LeaderboardUpdate
+
+Fields:
+
+- id
+- receivedAt
+
+Create:
+
+- LeaderboardUpdateRepository
+
+When
+
+POST /updateLeaderboard
+
+is called,
+
+save one LeaderboardUpdate entity into the H2 database.
+
+Do not calculate points.
+
+Do not create rankings.
+
+Do not modify prediction-service.
+
+Explain every created or modified file.
+
+Stop afterwards.
